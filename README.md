@@ -62,19 +62,24 @@ The filtered signal is saved as a new WAV file for listening and comparison.
 # Generated Visualizations
 The program produces five main plots:
 1. Original Audio Signal
-   <img width="426" height="382" alt="image" src="https://github.com/user-attachments/assets/d41dd0a1-ece4-42d3-b878-7e957e4c7f1a" />
+
+<img width="426" height="382" alt="image" src="https://github.com/user-attachments/assets/d41dd0a1-ece4-42d3-b878-7e957e4c7f1a" />
 
 2. Noisy Audio Signal
-   <img width="431" height="387" alt="image" src="https://github.com/user-attachments/assets/8c9ddf93-4105-48a0-8e10-08446b0a0d37" />
+
+<img width="431" height="387" alt="image" src="https://github.com/user-attachments/assets/8c9ddf93-4105-48a0-8e10-08446b0a0d37" />
 
 3. FFT Magnitude Spectrum (PSD)
-   <img width="423" height="372" alt="image" src="https://github.com/user-attachments/assets/9efdb342-5a52-4bc4-90c7-a8ca84561756" />
+
+<img width="423" height="372" alt="image" src="https://github.com/user-attachments/assets/9efdb342-5a52-4bc4-90c7-a8ca84561756" />
 
 4. Filtered Spectrum
-   <img width="430" height="382" alt="image" src="https://github.com/user-attachments/assets/425a3cca-84f9-4a3e-b612-746e568a8b03" />
+
+<img width="430" height="382" alt="image" src="https://github.com/user-attachments/assets/425a3cca-84f9-4a3e-b612-746e568a8b03" />
 
 5. Filtered Audio Signal
-   <img width="433" height="390" alt="image" src="https://github.com/user-attachments/assets/b7aaf11f-369c-48a7-bfb9-4cb501c27f18" />
+
+<img width="433" height="390" alt="image" src="https://github.com/user-attachments/assets/b7aaf11f-369c-48a7-bfb9-4cb501c27f18" />
 
 # Results
 The FFT-based low-pass filter successfully reduces most of the high-frequency noise introduced into the audio signal. Frequency components above 1500 Hz are significantly attenuated, resulting in a cleaner waveform that closely resembles the original recording.
